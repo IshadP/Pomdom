@@ -321,7 +321,7 @@ class StatusIndicator extends StatelessWidget {
           shadows: isRunning
               ? [
                   BoxShadow(
-                    color: statusColor.withOpacity(0.6),
+                    color: statusColor.withValues(alpha: 0.6),
                     blurRadius: 12,
                     spreadRadius: 2,
                   ),
@@ -337,7 +337,7 @@ class StatusIndicator extends StatelessWidget {
               child: Container(
                 width: 4,
                 decoration: ShapeDecoration(
-                  color: Colors.white.withOpacity(0.3),
+                  color: Colors.white.withValues(alpha: 0.3),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6),
                   ),

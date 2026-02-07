@@ -93,7 +93,7 @@ class _RetroButtonState extends State<RetroButton> {
                 : [
                     // Subtle highlight on top edge for 3D effect
                     BoxShadow(
-                      color: Colors.white.withOpacity(0.4),
+                      color: Colors.white.withValues(alpha: 0.4),
                       blurRadius: 0,
                       offset: const Offset(0, 1),
                       spreadRadius: 0,
